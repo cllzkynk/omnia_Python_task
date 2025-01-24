@@ -17,3 +17,6 @@ print(f"Lukujen summa {sum}")
 print(f"Lukujen keskiarvo {sum/(count_neg+count_poz)}") if (count_neg+count_poz)!=0 else print("Lukujen keskiarvo: division by zero exception")
 print(f"Positiivisia {count_poz}")
 print(f"Negatiivisia {count_neg}")
+
+"""
+25.01.2025 klo 044 kaikki loppu"""
