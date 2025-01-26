@@ -1,8 +1,9 @@
-# Korjaa ohjelma
-luku = int(input("Anna luku 1: "))
-luku = int(input("Anna luku 2: "))
-luku = int(input("Anna luku 3: "))
-
-tulo = luku * luku * luku
-
+# Kirjoita ratkaisu tähän
+tulo=1
+luku = int(input("Anna luku: "))
+tulo*=luku
+luku = int(input("Anna luku: "))
+tulo*=luku
+luku = int(input("Anna luku: "))
+tulo*=luku
 print("Tulo on", tulo)
