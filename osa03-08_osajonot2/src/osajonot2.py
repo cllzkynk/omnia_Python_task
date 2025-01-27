@@ -14,7 +14,22 @@ testi
 """
 
 sana=input("Anna sana: ")
-pituus = len(sana)-1
-while pituus>=0:
-    print(sana[pituus:-1])
-    pituus -= 1
+index=len(sana)-1
+sana_box=""
+while index>=0:
+    sana_box=sana[index:index+1]+sana_box
+    print(sana_box)
+    index-=1
+
+
+"""
+merkkijono = input("Anna merkkijono: ")
+ 
+alku = len(merkkijono) - 1
+while alku >= 0:
+    print(merkkijono[alku:])
+    alku -= 1
+    
+
+"""
+    
