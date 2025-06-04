@@ -1,5 +1,6 @@
 # tee ratkaisu tänne
 
+
 """
 def etsi_elokuvat(rekisteri: list, hakusana: str):
     loydetyt = []
@@ -14,7 +15,6 @@ def etsi_elokuvat(rekisteri: list, hakusana: str):
 # tee ratkaisu tänne
  
 """
-
  
 
 def etsi_elokuvat(rekisteri, hakusana):
